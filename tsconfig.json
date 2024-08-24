@@ -9,8 +9,10 @@
     }
   ],
   "compilerOptions": {
+    /* Allow .jsx and .js imports without typechecking them */
     "allowJs": true,
     "checkJs": false,
+    /* shadcn/ui */
     "baseUrl": ".",
     "paths": {
       "@/*": [

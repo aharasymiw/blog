@@ -57,7 +57,7 @@ cd aharasymiw
 https://ui.shadcn.com/docs/installation/vite
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-Add this to tsconfig.json file:
+Add this to `tsconfig.json` file:
 ```
 ,
   "compilerOptions": {
@@ -67,7 +67,7 @@ Add this to tsconfig.json file:
     }
   }
 ```
-Add this to tsconfig.app.json file, inside `"compilerOptions": {}`:
+Add this to `tsconfig.app.json` file, inside `"compilerOptions": {}`:
 ```
 ,
     "baseUrl": ".",
@@ -79,7 +79,7 @@ Add this to tsconfig.app.json file, inside `"compilerOptions": {}`:
 ```
 npm i -D @types/node
 
-Add this to vite.config.ts, inside `defineConfig({})`
+Add this to `vite.config.ts`, inside `defineConfig({})`
 
 ```
 import path from "path"
@@ -116,3 +116,15 @@ npx shadcn-ui@latest init
 
 Other Dependencies
 npm install react-router-dom
+npm i -D @types/react-router
+npm i -D @types/react-router-dom
+
+npx shadcn-ui@latest add badge
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add dropdown-menu
+npx shadcn-ui@latest add radio-group
+npx shadcn-ui@latest add popover
+npx shadcn-ui@latest add separator
+npx shadcn-ui@latest add toast
+npx shadcn-ui@latest add switch
+npx shadcn-ui@latest add navigation-menu
