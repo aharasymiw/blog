@@ -6,6 +6,7 @@ import './App.css'
 function App() {
 
   const TAGS = ['Code', 'D&D', 'Vegan', 'FAQ', 'Toastmasters']
+  console.log('TAGS', TAGS);
 
   return (
     <>
